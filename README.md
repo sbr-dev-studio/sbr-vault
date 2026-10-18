@@ -5,13 +5,13 @@
     <img src="https://img.shields.io/github/v/release/sbr-dev-studio/sbr-vault?color=blue&style=for-the-badge" alt="Release">
   </a>
   <img src="https://img.shields.io/badge/Platform-Windows%2010%2B-blue?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge" alt=".NET">
+  <img src="https://img.shields.io/badge/.NET-10.0-purple?style=for-the-badge" alt=".NET 10">
   <img src="https://img.shields.io/badge/Security-AES--256--GCM-green?style=for-the-badge" alt="Security">
 </p>
 
 ---
 
-**SbrVault** is a high-security, lightweight, and modern personal password manager and encrypted vault for Windows. Built natively with **C# .NET** and **WPF**, it delivers maximum privacy, strict local data isolation, and instant performance.
+**SbrVault** is a high-security, lightweight, and modern personal password manager and encrypted vault for Windows. Built natively with **C# .NET 10** and **WPF**, it delivers maximum privacy, strict local data isolation, and instant performance.
 
 ---
 
@@ -48,7 +48,7 @@
 ## 💻 System Requirements
 
 * **OS:** Windows 10 / Windows 11 (64-bit)
-* **Framework:** .NET Desktop Runtime 8.0 *(or self-contained)*
+* **Framework:** .NET Desktop Runtime 10.0 *(or self-contained)*
 
 ---
 
