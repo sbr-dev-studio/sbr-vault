@@ -20,15 +20,15 @@
 
 | Feature | Description |
 | :--- | :--- |
-| 🛡 **Authenticated Encryption** | All stored records are protected using **AES-256-GCM**[cite: 3]. |
+| 🛡 **Authenticated Encryption** | All stored records are protected using **AES-256-GCM**. |
 | 🔑 **Argon2id Key Derivation** | Industry-standard hashing algorithm to resist hardware brute-force attacks. |
-| 💻 **Local-First Privacy** | Zero cloud dependency by default. Your vault files stay strictly on your local device[cite: 3]. |
-| 📁 **Inside-Cell Records** | Structured storage for documents, finances, work projects, and encrypted file attachments[cite: 3]. |
-| ⭐ **Favorites & Color Labels** | Instant visual categorization, color-based search, and quick access to pinned items[cite: 3]. |
-| 🔍 **Global Vault Search** | Fast searching across the entire vault (`Ctrl+K`) with strict protection for sensitive secrets[cite: 3]. |
-| 🗑️ **Secure File Shredder** | Guaranteed 3-pass file and folder deletion with MFT sanitization to prevent forensic recovery[cite: 3]. |
-| ✈️ **Travel Mode** | Temporarily hide sensitive cells for a defined period (24h to 7 days) at the data layer[cite: 3]. |
-| ⚡ **Modern WPF Interface** | Reactive desktop experience featuring manual drag-and-drop ordering and smooth animations[cite: 3]. |
+| 💻 **Local-First Privacy** | Zero cloud dependency by default. Your vault files stay strictly on your local device. |
+| 📁 **Inside-Cell Records** | Structured storage for documents, finances, work projects, and encrypted file attachments. |
+| ⭐ **Favorites & Color Labels** | Instant visual categorization, color-based search, and quick access to pinned items. |
+| 🔍 **Global Vault Search** | Fast searching across the entire vault (`Ctrl+K`) with strict protection for sensitive secrets. |
+| 🗑️ **Secure File Shredder** | Guaranteed 3-pass file and folder deletion with MFT sanitization to prevent forensic recovery. |
+| ✈️ **Travel Mode** | Temporarily hide sensitive cells for a defined period (24h to 7 days) at the data layer. |
+| ⚡ **Modern WPF Interface** | Reactive desktop experience featuring manual drag-and-drop ordering and smooth animations. |
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## 🛡️ Security Architecture
 
-- **Encryption Standard:** AES-256-GCM (Galois/Counter Mode)[cite: 3].
+- **Encryption Standard:** AES-256-GCM (Galois/Counter Mode).
 - **Key Derivation Function (KDF):** Argon2id.
 - **Secure Destruction:** 3-pass file shredding (Random data, inverted data, zero-fill) combined with Master File Table (MFT) renaming.
 - **Data Preservation:** Full backward compatibility with existing local vaults without requiring forced migrations.
